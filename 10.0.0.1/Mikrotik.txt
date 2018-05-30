@@ -1,0 +1,6 @@
+copy file to router 
+#import key file for user
+/user ssh-keys import public-key-file=[mykey].pub user=[username]
+
+#to verify key file
+/user ssh-keys print 
